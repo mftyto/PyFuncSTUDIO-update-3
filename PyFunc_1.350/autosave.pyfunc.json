@@ -1,0 +1,98 @@
+{
+  "app": "PyFunc Studio",
+  "appVersion": "1.350",
+  "curveQuality": 1.600000023841858,
+  "implicitQuality": 0.699999988079071,
+  "layers": [
+    {
+      "color": [
+        1.0,
+        0.7200000286102295,
+        0.30000001192092896,
+        1.0
+      ],
+      "expr": "exp(-0.12*x*x) * cos(3*x) * 2.2 * a",
+      "expr2": "",
+      "expr3": "",
+      "id": 4,
+      "mode": 0,
+      "name": "Затухание",
+      "opacity": 1.0,
+      "resolution": 192,
+      "tMax": 6.2831854820251465,
+      "tMin": 0.0,
+      "thickness": 2.4000000953674316,
+      "visible": true,
+      "wireframe": false
+    },
+    {
+      "color": [
+        0.9800000190734863,
+        0.3400000035762787,
+        0.6299999952316284,
+        1.0
+      ],
+      "expr": "(2.4 + cos(v))*cos(u)",
+      "expr2": "(2.4 + cos(v))*sin(u)",
+      "expr3": "sin(v)*1.5",
+      "id": 6,
+      "mode": 6,
+      "name": "Тор",
+      "opacity": 1.0,
+      "resolution": 150,
+      "tMax": 6.2831854820251465,
+      "tMin": 0.0,
+      "thickness": 2.200000047683716,
+      "visible": true,
+      "wireframe": false
+    }
+  ],
+  "playing": false,
+  "pluginSettings": {},
+  "pluginsEnabled": true,
+  "selectedId": 6,
+  "speed": 1.0,
+  "time": 96.35699763055891,
+  "variables": [
+    {
+      "amplitude": 0.20999999344348907,
+      "animate": true,
+      "center": 0.0,
+      "frequency": 0.9399999976158142,
+      "name": "a",
+      "phase": 3136.769287109375,
+      "value": 0.20870813727378845
+    }
+  ],
+  "version": 2,
+  "video": {
+    "bitrateMbps": 8,
+    "duration": 6.0,
+    "fps": 30,
+    "height": 1080,
+    "width": 1920
+  },
+  "view2D": {
+    "centerX": 0.0,
+    "centerY": 0.0,
+    "halfHeight": 7.199999809265137
+  },
+  "view3D": {
+    "distance": 20.780424118041992,
+    "domainX0": -5.0,
+    "domainX1": 5.0,
+    "domainY0": -5.0,
+    "domainY1": 5.0,
+    "fovDegrees": 46.0,
+    "pitch": 0.5199999809265137,
+    "show2DIn3D": true,
+    "showAxes": true,
+    "showGrid": true,
+    "targetX": 0.0,
+    "targetY": 0.0,
+    "targetZ": 0.0,
+    "vsync": true,
+    "yaw": 0.6800000071525574
+  },
+  "viewMode": 1
+}
